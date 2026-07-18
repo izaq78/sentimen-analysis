@@ -1,0 +1,7 @@
+text,counts,removed,action
+Terima Kasih.,"{1: 8, 0: 2}",2,drop_minority_keep_1
+barang sesuai dengan pesanan,"{1: 2, 0: 2}",4,drop_all_tie
+barang sudah diterima.,"{1: 2, 0: 2}",4,drop_all_tie
+barang sudah sampai .,"{1: 3, 0: 2}",2,drop_minority_keep_1
+barang sudah sampai terima kasih agan,"{1: 2, 0: 2}",4,drop_all_tie
+barang sudah sampai.,"{1: 3, 0: 2}",2,drop_minority_keep_1

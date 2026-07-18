@@ -1,0 +1,32 @@
+{
+  "title": "Dashboard AI Analisis Sentimen",
+  "page": {
+    "page_title": "Dashboard AI Analisis Sentimen",
+    "page_icon": "🤖",
+    "layout": "wide",
+    "initial_sidebar_state": "expanded"
+  },
+  "columns": {
+    "prediction": "sentimen",
+    "confidence": "tingkat_keyakinan",
+    "status": "status"
+  },
+  "confidence_thresholds": {
+    "high": 0.85,
+    "medium": 0.65
+  },
+  "menu_items": [
+    "Beranda",
+    "EDA",
+    "Pemodelan",
+    "Evaluasi",
+    "Visualisasi",
+    "Prediksi",
+    "Tentang"
+  ],
+  "downloads": {
+    "csv_mime": "text/csv",
+    "batch_filename": "hasil_prediksi_sentimen.csv",
+    "history_filename": "riwayat_prediksi.csv"
+  }
+}

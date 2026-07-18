@@ -1,0 +1,14 @@
+{
+  "pandas": "pandas",
+  "numpy": "numpy",
+  "scikit-learn": "sklearn",
+  "joblib": "joblib",
+  "Sastrawi": "Sastrawi",
+  "RapidFuzz": "rapidfuzz",
+  "emoji": "emoji",
+  "emot": "emot",
+  "matplotlib": "matplotlib",
+  "seaborn": "seaborn",
+  "streamlit": "streamlit",
+  "pytest": "pytest"
+}

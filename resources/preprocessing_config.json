@@ -1,0 +1,67 @@
+{
+  "columns": {
+    "text": "text",
+    "sentiment": "sentiment"
+  },
+  "dataset": {
+    "glob": "*.csv",
+    "filename_regex": "^data\\d+\\.csv$",
+    "duplicate_behavior": "drop_exact",
+    "conflict_behavior": "error"
+  },
+  "model": {
+    "version": "1.0.0",
+    "output_path": "model_sentimen.pkl",
+    "metadata_path": "model_sentimen.metadata.json"
+  },
+  "labels": {
+    "positive": "positif",
+    "negative": "negatif",
+    "neutral": "netral"
+  },
+  "sentiment_values": {
+    "negative": 0,
+    "positive": 1
+  },
+  "display_labels": {
+    "negative": "Negatif",
+    "positive": "Positif",
+    "neutral": "Netral"
+  },
+  "special_tokens": [
+    "positif",
+    "negatif",
+    "netral"
+  ],
+  "thresholds": {
+    "typo": 85,
+    "repeat": 88,
+    "leet": 88,
+    "emoji_positive": 0.05,
+    "emoji_negative": -0.05
+  },
+  "tfidf": {
+    "ngram_min": 1,
+    "ngram_max": 2,
+    "min_df": 2,
+    "max_df": 0.95
+  },
+  "naive_bayes": {
+    "alpha": 1.0
+  },
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "preprocessing": {
+    "progress_interval": 1000,
+    "cache_size": 50000,
+    "max_leet_candidates": 512,
+    "unknown_description_token": "deskripsi_emoji",
+    "minimum_token_length": 2,
+    "emoji_handling": "sentiment_or_description",
+    "emoticon_handling": "resource_label",
+    "negation_handling": "combine_with_next_token",
+    "stopword_behavior": "remove_except_negation_and_special"
+  }
+}

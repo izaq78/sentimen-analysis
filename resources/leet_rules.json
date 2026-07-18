@@ -1,0 +1,15 @@
+{
+  "description": "Konfigurasi normalisasi leetspeak, bukan label sentimen manual.",
+  "max_candidates": 512,
+  "substitutions": {
+    "0": ["o"],
+    "1": ["i", "l"],
+    "3": ["e"],
+    "4": ["a"],
+    "5": ["s"],
+    "6": ["g"],
+    "7": ["t"],
+    "8": ["b"],
+    "9": ["g"]
+  }
+}

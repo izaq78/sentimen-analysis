@@ -1,0 +1,303 @@
+{
+    "resources":  [
+                      {
+                          "name":  "resources_directory",
+                          "path":  "resources",
+                          "type":  "directory",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "cache_directory",
+                          "path":  "cache",
+                          "type":  "directory",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "preprocessing_config",
+                          "path":  "resources/preprocessing_config.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "378b6764c68dad554f1a125ef82277bcae337f8ce1a976640b63f1acf3b29494",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "app_config",
+                          "path":  "resources/app_config.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "904be375f7380b87985c5522507b116efc9dea69db4c8021e22f0a02c693170f",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "visualization_config",
+                          "path":  "resources/visualization_config.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "ba921bcd9b9e8d46814f610626fb95172e81708178ae399cae23eb1be84c821e",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "slang_indonesia",
+                          "path":  "resources/slang_indonesia.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "5c568f94457d7266ebfd355bef4384d5cfa295e78faecd0dcead84db08ca35d4",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "lihat resources/RESOURCE_SOURCES.md",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "mapping_key":  "slang"
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "leet_rules",
+                          "path":  "resources/leet_rules.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "1b27c4c2c1d67ef195e6e06f4eefd44f5053f84deba861b4cce194b1e16abfae",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "mapping_key":  "substitutions"
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "additional_dictionary",
+                          "path":  "resources/additional_dictionary.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "8d16ae14d2510f5a62a048b794c221b588a66856c5168e2fd0aff1e2c064762f",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "list_key":  "words"
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "negations_indonesia",
+                          "path":  "resources/negations_indonesia.txt",
+                          "type":  "text",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "9e9869d1c898a036e44ba561fb19c1c64e8f35083f4e7e7dddf18c907363daef",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "non_empty":  true
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "stopwords_indonesia",
+                          "path":  "resources/stopwords_indonesia.txt",
+                          "type":  "text",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "0a105bc40cb06612138a637405ffb12d06115c904c0d81d41d0a849787c5fdae",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "lihat resources/RESOURCE_SOURCES.md",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "non_empty":  true
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "stemming_exclusions",
+                          "path":  "resources/stemming_exclusions.txt",
+                          "type":  "text",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "624f289e3248a475c8339eef19ad81f76f0273282f326c25dd4bb213dec18e80",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "non_empty":  true
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "emoticon_sentiment",
+                          "path":  "resources/emoticon_sentiment.csv",
+                          "type":  "csv",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "a845d8a388bb47a38c13aa5932600b42a30bdbe1252d68205286e13b7eaa4160",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "derived from emot package metadata; sentiment labels maintained as project resource",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "columns":  [
+                                                             "emoticon",
+                                                             "meaning",
+                                                             "sentiment"
+                                                         ],
+                                             "non_empty":  true,
+                                             "unique_key":  "emoticon",
+                                             "allowed_values":  {
+                                                                    "sentiment":  [
+                                                                                      "positif",
+                                                                                      "negatif",
+                                                                                      "netral"
+                                                                                  ]
+                                                                },
+                                             "not_all_value":  {
+                                                                   "column":  "sentiment",
+                                                                   "value":  "netral"
+                                                               }
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "dependency_import_map",
+                          "path":  "resources/dependency_import_map.json",
+                          "type":  "json",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "ec0c4a47829fcf6014739fb76f70a3fd9697e6398c4b0169240f67608c9ddc8b",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "project",
+                          "source_name":  "project",
+                          "validation":  {
+
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "kamus_indonesia",
+                          "path":  "kamus_indonesia.txt",
+                          "type":  "text",
+                          "required":  true,
+                          "source_url":  "",
+                          "generator":  "",
+                          "checksum":  "00aa5768168fe4b9c36e2a2c5de87f75a0cd2c88b6467ecf70ea82533412c114",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "lihat resources/RESOURCE_SOURCES.md",
+                          "source_name":  "project resource",
+                          "validation":  {
+                                             "non_empty":  true
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "bundled"
+                      },
+                      {
+                          "name":  "emoji_sentiment",
+                          "path":  "cache/emoji_sentiment.csv",
+                          "type":  "csv",
+                          "required":  true,
+                          "source_url":  "https://raw.githubusercontent.com/demidovakatya/vk_emoji_sentiment/master/data/Emoji_Sentiment_Data_v1.0.csv",
+                          "generator":  "",
+                          "checksum":  "97465d4cf7e039fdca3f567310a4a9c225aa75e194945ccdb752df415ac6c201",
+                          "checksum_algorithm":  "sha256",
+                          "license":  "Emoji Sentiment Ranking dataset; see source repository",
+                          "source_name":  "Emoji Sentiment Ranking",
+                          "validation":  {
+                                             "columns":  [
+                                                             "Emoji",
+                                                             "Unicode codepoint",
+                                                             "Occurrences",
+                                                             "Position",
+                                                             "Negative",
+                                                             "Neutral",
+                                                             "Positive",
+                                                             "Unicode name",
+                                                             "Unicode block"
+                                                         ],
+                                             "non_empty":  true,
+                                             "unique_key":  "Emoji"
+                                         },
+                          "version":  "1.0.0",
+                          "updated_at":  "2026-07-17",
+                          "distribution":  "downloadable"
+                      }
+                  ]
+}

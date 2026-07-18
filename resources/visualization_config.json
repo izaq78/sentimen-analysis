@@ -1,0 +1,46 @@
+{
+  "output_directory": "hasil_visualisasi",
+  "output_files": {
+    "label_distribution": "1_label_distribution.png",
+    "review_length_histogram": "2_review_length_histogram.png",
+    "review_length_boxplot": "3_review_length_boxplot.png",
+    "top_words": "4_top20_words.png",
+    "confusion_matrix": "5_confusion_matrix.png",
+    "model_metrics": "6_model_metrics.png"
+  },
+  "figure": {
+    "default_size": [10, 6],
+    "boxplot_size": [8, 4],
+    "top_words_size": [12, 6],
+    "dpi": 300,
+    "bbox_inches": "tight"
+  },
+  "histogram": {
+    "bins": 40
+  },
+  "top_words": {
+    "count": 20
+  },
+  "bar_labels": {
+    "offset_ratio": 0.01
+  },
+  "metrics": {
+    "x_min": 0.0,
+    "x_max": 1.0,
+    "text_offset": 0.01,
+    "decimal_places": 3,
+    "zero_division": 0
+  },
+  "theme": {
+    "seaborn": "whitegrid"
+  },
+  "palette": {
+    "label_distribution": ["#2ecc71", "#e74c3c"],
+    "histogram": "#3498db",
+    "boxplot": "#9b59b6",
+    "top_words": "viridis",
+    "model_metrics": "magma",
+    "confusion_matrix": "Blues",
+    "confusion_matrix_values_format": "d"
+  }
+}

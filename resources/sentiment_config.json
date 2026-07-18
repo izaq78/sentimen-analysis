@@ -1,0 +1,40 @@
+{
+  "labels": {
+    "positive": "positif",
+    "negative": "negatif",
+    "neutral": "netral"
+  },
+  "label_aliases": {
+    "positive": "positive",
+    "positif": "positive",
+    "pos": "positive",
+    "negative": "negative",
+    "negatif": "negative",
+    "neg": "negative",
+    "neutral": "neutral",
+    "netral": "neutral",
+    "neu": "neutral"
+  },
+  "emoji_score_thresholds": {
+    "positive": 0.05,
+    "negative": -0.05
+  },
+  "emoji_dataset": {
+    "name": "Emoji Sentiment Ranking 1.0",
+    "authors": "Petra Kralj Novak, Jasmina Smailovic, Borut Sluban, Igor Mozetic",
+    "year": 2015,
+    "url": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1048/Emoji_Sentiment_Data_v1.0.csv?sequence=8&isAllowed=y",
+    "landing_page": "https://www.clarin.si/repository/xmlui/handle/11356/1048",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "expected_entries": 751,
+    "md5": "dd9960916aef9ac9411888534d60bc6f"
+  },
+  "translator": {
+    "provider": "deep-translator",
+    "source_language": "en",
+    "target_language": "id",
+    "max_items_per_setup": 250,
+    "batch_size": 25,
+    "unknown_description_token": "deskripsi belum tersedia"
+  }
+}

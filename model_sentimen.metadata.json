@@ -1,0 +1,56 @@
+{
+  "model_version": "1.0.0",
+  "timestamp": "2026-07-18T00:33:08",
+  "dataset_files": [
+    "data1.csv",
+    "data2.csv",
+    "data3.csv",
+    "data4.csv",
+    "data5.csv"
+  ],
+  "dataset_checksum": {
+    "data1.csv": "f5df63ae42501ad99a5ac481a5b315a03be5aaac630923e9fb511e7740c36737",
+    "data2.csv": "dc0e4920f7c960212d1c0c369785c4cef2874bd1b9a763e7692dbe34701af2a3",
+    "data3.csv": "e75ed065d6fb5d64267050eddee542eb1976ca75f2a096ce2bbaa33315329944",
+    "data4.csv": "f73bcdbb04db28f01395c3783c3e69adc7a9b2dfaf9a0644035c41a8f8c0a074",
+    "data5.csv": "1d5c297a724a2f70a8de28cee27a3e063911c870e305dad1670779447e6b06e6"
+  },
+  "data_count": 31721,
+  "label_distribution": {
+    "0": 11716,
+    "1": 20005
+  },
+  "config_checksum": "378b6764c68dad554f1a125ef82277bcae337f8ce1a976640b63f1acf3b29494",
+  "resource_checksum": {
+    "preprocessing_config.json": "378b6764c68dad554f1a125ef82277bcae337f8ce1a976640b63f1acf3b29494",
+    "kamus_indonesia.txt": "00aa5768168fe4b9c36e2a2c5de87f75a0cd2c88b6467ecf70ea82533412c114",
+    "slang_indonesia.json": "5c568f94457d7266ebfd355bef4384d5cfa295e78faecd0dcead84db08ca35d4",
+    "leet_rules.json": "1b27c4c2c1d67ef195e6e06f4eefd44f5053f84deba861b4cce194b1e16abfae",
+    "additional_dictionary.json": "8d16ae14d2510f5a62a048b794c221b588a66856c5168e2fd0aff1e2c064762f",
+    "negations_indonesia.txt": "9e9869d1c898a036e44ba561fb19c1c64e8f35083f4e7e7dddf18c907363daef",
+    "stopwords_indonesia.txt": "0a105bc40cb06612138a637405ffb12d06115c904c0d81d41d0a849787c5fdae",
+    "stemming_exclusions.txt": "624f289e3248a475c8339eef19ad81f76f0273282f326c25dd4bb213dec18e80",
+    "emoticon_sentiment.csv": "a845d8a388bb47a38c13aa5932600b42a30bdbe1252d68205286e13b7eaa4160",
+    "emoji_sentiment.csv": "97465d4cf7e039fdca3f567310a4a9c225aa75e194945ccdb752df415ac6c201"
+  },
+  "library_versions": {
+    "python": "3.13.14",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "Sastrawi": "1.0.1",
+    "RapidFuzz": "3.14.5",
+    "emoji": "2.15.0",
+    "emot": "3.1"
+  },
+  "evaluation_metrics": {
+    "accuracy": 0.9256107171000788,
+    "precision": 0.9119981325863679,
+    "recall": 0.9762618690654673,
+    "f1": 0.9430364470190683
+  },
+  "pipeline_steps": [
+    "tfidf",
+    "naive_bayes"
+  ]
+}
